@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(8, 59, 76);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container{
+    width: 65vw;
+    height: 90vh;
+    margin: 0 auto;
+}
+
+.square{
+    background-color: rgb(19, 137, 178);
+    
+}
+
+.fizz{
+    background-color: rgb(12, 214, 161);
+    
+}
+
+.buzz{
+    background-color: rgb(255, 209, 102);
+    
+}
+
+.fizzBuzz{
+    background-color: rgb(240, 70, 111);
+    
+}
+
+.square, .fizz, .buzz, .fizzBuzz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 50px;
+    margin: 5px;
+    font-size: small;
+    color: white;
+    font-weight: bold;
+}
